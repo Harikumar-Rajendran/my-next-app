@@ -1,0 +1,30 @@
+.container{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    
+}
+.submit{
+    background-color: #0359a4c9;
+    border: 1px solid #024a7d;
+    border-radius: 10px;
+    padding:10px;
+    margin-left: 10px;
+    color: white;
+}
+.submit:hover{
+    background-color: #46307ac6;
+}
+form{
+    border: 1px solid gray;
+    border-radius: 10px;
+    padding: 20px;
+}
+.selection{
+    border: 1px solid gray;
+    border-radius: 10px;
+    padding: 10px;
+    margin-left: 10px;
+}
