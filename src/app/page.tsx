@@ -21,8 +21,16 @@ export default function Home() {
   return (
     <div className="container">
       <form onSubmit={handleSubmit}>
+      <div className="rules">
+        <p>* Select a channel to proceed</p>
+        <p>* Share the channel with your friend to join</p>
+        <p>* If you are X , your friend is O</p> 
+        <p>* Players take turns putting their marks in empty squares</p>
+        <p>* The first player to get 3 of the marks in a row (up, down, across, or diagonally) is the winner</p>
+        <p>* When all 9 squares are full, the game is over. If no player has 3 marks in a row, the game ends in a tie</p>
+      </div>
         <label>
-          Select an option:
+          Select a Channel:
           <select value={selectedOption} onChange={handleOptionChange} className="selection">
             <option value="1">Channel 1</option>
             <option value="2">Channel 2</option>
